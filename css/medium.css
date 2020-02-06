@@ -1,0 +1,87 @@
+
+/* CSS Document */
+
+
+
+#banner{
+height: 400px;
+}
+
+#kkkicon{
+margin-left:5%;
+}
+
+
+#navigate{
+height: 110px;
+margin-top: 10px;
+background: none;
+}
+
+.nav_menu {
+margin: 0px;
+
+}
+
+nav {
+margin-right:15%;
+margin-left:15%;
+
+}
+
+.nav_menu li{
+float:none;
+width: 70%;
+height: 40px;
+}
+
+nav ul li:hover{
+//font-size:1em;	
+//background-color:#2591c5;
+//padding-bottom:2px;
+ border-bottom-color:#2591c5;
+font-size:1.5em;
+text-decoration: none;
+text-align: center;
+vertical-align: middle;
+}
+
+#content{
+background-color: rgb(255,0,0);
+}
+
+#bannerContent{
+	//top: 30%;
+	top:30px; 
+	left:10%;
+	font-size: 3.5em;
+}
+
+#contentHome, #contentAbout, #contentContact, #contentGallery{
+padding:2%;
+margin-top: 12%;
+
+}
+
+ #contentGallery img{
+	opacity:1;
+	width: 85%;
+	//height: 260px;
+	//margin-left: 5%;
+	margin-bottom: 2%;
+}
+
+#formContainer{
+//padding-left: 5%;
+width:90%;
+}
+
+#spinner{
+position: fixed;
+left: 450px;
+top: 250px;
+width: 64px;
+height: 64px;
+z-index: 9999;
+background: url(images/waitImg.gif) 50% 50% no-repeat #ede9df;
+}
